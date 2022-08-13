@@ -150,8 +150,8 @@ body{
     align-items: center;
     gap: 5px;
     padding-bottom: 4px;
-    border-bottom: solid 1px green;
-    width: 170px
+    width: 170px;
+    border-bottom: 2px solid green;
 }
 
 .text span a{
@@ -226,7 +226,6 @@ body{
     border-radius: 2px;
     margin-bottom: 14px;
     box-shadow: 3px 3px 12px 3px rgba(0, 0, 0, 0.17);
-    
 }
 ::placeholder{
     color: hsl(0, 0%, 75%);
@@ -259,8 +258,8 @@ footer{
     position: relative;
 }
 .logo-footer{
-    /* filter:invert(100%); */
-    background-color: white;
+    filter:invert(100%);
+    /* background-color: white; */
     color: white;
     position: absolute;
     top: 15%;
@@ -307,8 +306,7 @@ footer{
         flex-wrap:wrap;
         box-sizing: content-box;
         padding-bottom: 6rem;
-        /* position: static; */
-        /* grid-template-columns: 1fr; */
+
     } 
     .illustration-1{
         width: 95%;
@@ -331,14 +329,14 @@ footer{
         font-size: 1.7rem; 
     }
     .email-input{
-        width: 140vw;
+        width: 150vw;
         margin: 20px auto;
         /* padding: 10px 0; */
         height: 60px;
         font-size: 1.5rem;
     }
     .btn-register{
-        width: 140vw;
+        width: 150vw;
         margin: auto;
         height: 60px;
         font-size: 1.5rem;
@@ -354,33 +352,92 @@ footer{
         width: 80%;
         order: 1;
         display: block;
+        margin-top: -120px;
     }
     .body_2_details{
+        margin: 40rem 4rem 0 4rem;
         order: 2;
         display: block;
     }
     .body_2_details h1{
-        text-align: center;
+        text-align:center;
         width: 150vw;
         display: block;
+        font-size: 2rem;
     }
     .text p{
-        text-align: center;
+        text-align: justify;
         width: 150vw;
         display: block; 
         font-size: 1.7rem; 
     }
-    .span{
-        box-sizing: border-box;
-        align-self: center;
-        width: 250px;
+    .text span{
+        box-sizing: content-box;
+        text-align: center;
+        width: 75vw;
         display: block; 
-        margin: auto;
-        font-size: 1rem; 
+        margin: 3rem auto;
+        padding-bottom: 1rem;
+        font-size: 1.7rem; 
     }
     .comment-box{
         justify-items: center;
         margin: auto;
-        width: 120vw;
+        width: 150vw;
     }
+    .testimony{
+        font-size: 1.3rem;
+    }
+    .comment-box_image{
+        display: flex;
+        align-items: center;
+        gap: 0.3rem;
+        padding: 0.6rem 2rem 1.25rem;
+    }
+    .picture{
+        width: 3.5rem;
+        border-radius: 50%;
+    }
+    .comment-box__details h4{
+        font-size: 1.3rem;
+    }
+    .body_3{
+        grid-template-columns: auto;
+        margin: auto;
+        text-align: center;
+    }
+    .body_3_details p{
+        width: 95%;
+        font-size: 1.7rem;
+        font-weight: 400;
+        line-height: 1.5em;
+        margin: 0.5rem auto 2rem auto;
+    }
+    .email-input-textbox_2{
+        width: 120vw;
+        font-size: 1.3rem;
+    }
+    .btn-body_3textbox-2{
+        width: 120vw;
+        font-size: 1.3rem;
+    }
+    .logo-footer{
+        color: white;
+        position: static;
+    }
+    .logo-footer img{
+        width: 50%;
+    }
+    .footer-details{
+        grid-template-columns: auto;
+        font-size: 2rem;
+    }
+    .icons{
+        margin: auto;
+    }
+    .social{
+        margin: 10px;
+        width: 50px;
+    }
+
 }
